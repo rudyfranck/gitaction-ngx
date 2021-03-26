@@ -31,4 +31,4 @@ jobs:
    # - run: yarn test
     - run: rm -rf build
     - run: CI= yarn build
-    - run: mv /actions-runner/react-app/gitaction-ngx/gitaction-ngx/build /actions-runner/react-app/gitaction-ngx/gitaction-ngx/testreactapp
+    - run: mv /actions-runner/react-app/gitaction-ngx/gitaction-ngx/build /actions-runner/react-app/gitaction-ngx/gitaction-ngx/reactapp
