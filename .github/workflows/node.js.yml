@@ -32,4 +32,4 @@ jobs:
     - run: rm -rf build
     - run: CI= yarn build
     - run: mv /actions-runner/react-app/gitaction-ngx/gitaction-ngx/build /actions-runner/react-app/gitaction-ngx/gitaction-ngx/reactapp
-    - run: if [ "$CI_COMMIT_REF_NAME" == "master" ]; then cp -r build/* /var/www/html; fi
+    - run: cp -r reactapp/* /var/www/html
