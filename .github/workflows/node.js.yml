@@ -28,6 +28,6 @@ jobs:
     - run: rm -rf node_modules
     - run: npm install
     - run: npm install --global yarn
-   # - run: yarn test
+    - run: yarn test
     - run: CI= yarn build
    
